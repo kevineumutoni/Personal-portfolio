@@ -48,7 +48,16 @@ export const NavBar = () => {
               <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
               <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link>
               <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
-              {/* Download CV button */}
+              {/* View and Download CV buttons */}
+              <Nav.Link
+                href="/Kevine-Umutoni-cv.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="navbar-link"
+                style={{ fontWeight: 'bold', color: '#007bff', marginRight: '12px', border:"2px"  }}
+              >
+                View CV
+              </Nav.Link>
               <Nav.Link
                 href="/Kevine-Umutoni-cv.pdf"
                 download
