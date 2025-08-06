@@ -18,8 +18,8 @@ export const Projects = () => {
       title: "Safi Greens admin dashboard",
       description: "Build a React Admin Dashboard to track app sales, products and users",
       imgUrl: projImg1,
-      githubUrl: "https://github.com/simplykevine/safi-greens-admin-dashboard",
-      visitSite: "https://safi-greens.vercel.app/",
+      githubUrl: "https://github.com/kevineumutoni/bigminds-frontend",
+      visitSite: "https://safiigreens-admins.vercel.app/",
     },
     {
       title: "Survive or Extinct game",
@@ -56,6 +56,7 @@ export const Projects = () => {
       githubUrl: "https://colab.research.google.com/drive/1iZpNh44MAHLCMC0OigJDTg-LLJmWVj6E",
     }
   ];
+
 
   return (
     <section className="project" id="projects">

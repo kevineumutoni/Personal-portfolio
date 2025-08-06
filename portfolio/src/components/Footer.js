@@ -6,7 +6,6 @@ import navIcon3 from "../assets/img/nav-icon3.svg";
 
 export const Footer = () => {
   const githubIconSize = { width: "28px", height: "21px"};
-
   return (
     <footer className="footer">
       <Container>
